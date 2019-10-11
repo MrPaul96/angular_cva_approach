@@ -1,0 +1,8 @@
+<div class="rfi-question">
+  <ng-template #textInputTemplate>
+    <div class="rfi-question__text">
+      Custom Input Question 1:
+    </div>
+  </ng-template>
+  <input [(ngModel)]="value" class="form-control" (blur)="onBlur()" />
+</div>
